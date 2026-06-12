@@ -1,0 +1,2 @@
+30 11 9 * * tar -czvf /backup/hasil_backup_tgl9.tar.gz /etc > /dev/null 2>&1
+50 11 * * 4 tar -czvf /backup/hasil_backup_kamis.tar.gz /etc > /dev/null 2>&1
